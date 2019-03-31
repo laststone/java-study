@@ -9,9 +9,19 @@ public class Demo3_DataType {
         */
 
         //数据类型转换之强制转换
+        /*
         int x = 3;
         byte b = 4;
         b = (byte)(x+b);    //强制将得到的int类型转换为byte类型
         System.out.println(b);
+        */
+
+        //强制转换问题
+        //byte b = 126 + 4; //int转换为byte损失精度，失败
+        byte b = (byte)(126+4);   //强制转换为byte
+        System.out.println(b);
+
+        byte b2 = (byte)300;
+        System.out.println(b2);
     }
 }
