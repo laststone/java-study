@@ -25,6 +25,7 @@ public class Test1_operator {
         //f = f + 1;
         f = (byte)(f+1);
         System.out.println(f);
+        System.out.println("改过后的代码");
 
     }
 }
