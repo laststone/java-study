@@ -17,5 +17,16 @@ class Test2_For {
             }
         }
         System.out.println("Sum = " + sum1);
+
+        System.out.println("----------------------");
+
+        //1-100的奇数和
+        int sum2=0;
+        for (int i=1;i<=100;i++){
+            if(i%2==1){
+                sum2=sum2+i;
+            }
+        }
+        System.out.println("sum2 = " + sum2);
     }
 }
