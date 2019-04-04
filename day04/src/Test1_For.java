@@ -4,5 +4,11 @@ class Test1_For {
             System.out.println("i = " + i);
         }
 
+        System.out.println("----------------------");
+
+        for(int i=10;i>=1;i--){
+            System.out.println("i = " + i);
+        }
+
     }
 }
