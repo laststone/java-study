@@ -30,6 +30,17 @@ class Demo1_DoWhile {
             System.out.println("m = " + m);
             m++;
         }
-        System.out.println("m = " + m);    //for循环接受会释放变量m，所以这里会报错找不到变量m
+        //System.out.println("m = " + m);    //for循环接受会释放变量m，所以这里会报错找不到变量m
+
+        System.out.println("-------------------");
+        //简单的死循环之一   while(true){...}
+//        while (true){
+//            System.out.println("hello world");
+//        }
+
+        //简单死循环之二  for(;;){...}
+        for(;;){
+            System.out.println("hello world");
+        }
     }
 }
