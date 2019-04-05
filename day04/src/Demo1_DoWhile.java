@@ -23,5 +23,13 @@ class Demo1_DoWhile {
             System.out.println("j = " + j);
             j++;
         }
+
+        System.out.println("-------------------");
+        //for循环结束释放变量
+        for (int m=1;m<=10;m++){
+            System.out.println("m = " + m);
+            m++;
+        }
+        System.out.println("m = " + m);    //for循环接受会释放变量m，所以这里会报错找不到变量m
     }
 }
