@@ -1,5 +1,5 @@
 class Demo3_Mark {
-    public static void main(String args[]){
+    public static void main(String[] args){
         //使用标记来标识某个循环，可以指定对该标识进行操作
         a: for (int i=1;i<=10;i++){
             System.out.println("i = " + i);

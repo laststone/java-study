@@ -1,5 +1,5 @@
 public class Demo4_Overload {
-    public static void main(String args[]){
+    public static void main(String[] args){
         int sum1=add(10,20);
         System.out.println(sum1);
 

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Test_Method {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入第一个整数：");
         int x = sc.nextInt();

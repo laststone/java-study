@@ -1,5 +1,5 @@
 class Test1 {
-    public static void main(String args[]){
+    public static void main(String[] args){
         for (int x=1;x<=10;x++){
             if (x%3==0){
                 //在此处填写考察代码
