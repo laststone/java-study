@@ -1,5 +1,5 @@
 class Test2_For {
-    public static void main(String args[]){
+    public static void main(String[] args){
         //1-10的和
         int sum = 0;
         for (int i=1;i<=10;i++){

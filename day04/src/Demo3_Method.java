@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Demo3_Method {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入行数：");
         int row=sc.nextInt();

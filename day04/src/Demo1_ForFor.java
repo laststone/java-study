@@ -1,5 +1,5 @@
 class Demo1_ForFor {
-    public static void main(String args[]){
+    public static void main(String[] args){
         //外循环控制行数，内循环控制列数
         for (int i=1;i<=3;i++){
             System.out.println("i = " + i);

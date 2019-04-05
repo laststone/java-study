@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Test2_Method {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("请录入一个整数，范围在1-9之间：");
         int num=sc.nextInt();

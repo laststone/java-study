@@ -1,5 +1,5 @@
 class Test3_Flower {
-    public static void main(String args[]){
+    public static void main(String[] args){
         for (int i=100;i<=999;i++){
             int ge=i%10;
             int shi=i/10%10;
