@@ -8,6 +8,7 @@ public class Demo13_Array {
 
         System.out.println(arr);
         System.out.println(arr2);
+        System.out.println(arr[0]);          // 二维数组中第一个数组对象
         System.out.println(arr[0][0]);       // 二维数组中第一个数组中第一个元素
 
 
