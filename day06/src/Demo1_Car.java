@@ -4,6 +4,14 @@ public class Demo1_Car {
         c1.color="red";         // 调用属性并赋值
         c1.num=8;
         c1.run();               // 调用行为
+
+        Car c2=new Car();       // 再创建一个新对象
+        c2.color="black";
+        c2.num=4;
+        c2.run();
+
+        //c2=null;              // 用null把原来的地址给覆盖掉
+        //c2.run();             // c2里面记录的是null，所以报错空指针异常
     }
 }
 
