@@ -12,6 +12,10 @@ public class Demo1_Car {
 
         //c2=null;              // 用null把原来的地址给覆盖掉
         //c2.run();             // c2里面记录的是null，所以报错空指针异常
+
+
+        Car c3=c2;              // 三个引用，有两个对象的引用指向同一个地址
+        c3.run();
     }
 }
 
