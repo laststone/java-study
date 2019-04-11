@@ -1,5 +1,5 @@
 // 定义一个工具类ArrayTool
-class ArrayTool {
+public class ArrayTool {
 
     private ArrayTool(){}           // 如果一个类中全是静态方法，就可以将该类的构造方法通过private关键字私有化，这样会禁止别人通过实例化创建对象来调用其中的静态成员方法
 
