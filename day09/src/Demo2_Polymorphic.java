@@ -43,7 +43,7 @@ class Son extends Father{
 }
 */
 
-
+/*
 class Demo2_Polymorphic {
     public static void main(String[] args){
 
@@ -65,5 +65,31 @@ class Son extends Father{
     int num=20;
     public void print(){
         System.out.println("son");
+    }
+}
+*/
+
+
+class Demo2_Polymorphic {
+    public static void main(String[] args){
+
+        Father f=new Son();             // 父类引用指向子类对象
+        f.method();                      // 静态成员方法--------> 编译看左边(父类)，运行看左边(父类) <---静态和类相关，算不上重写，所以访问还是左边
+
+
+    }
+}
+
+class Father{
+    int num=10;
+    public static void method(){
+        System.out.println("father static method");
+    }
+}
+
+class Son extends Father{
+    int num=20;
+    public static void method(){
+        System.out.println("son satic method");
     }
 }
